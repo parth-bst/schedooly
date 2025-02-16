@@ -1,0 +1,11 @@
+openai>=1.0.0
+python-dotenv>=0.19.0
+selenium
+requests
+openai
+pandas
+langchain-openai
+langchain_community
+google-auth-oauthlib
+google-api-python-client
+pyhocon

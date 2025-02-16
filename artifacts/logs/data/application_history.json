@@ -1,0 +1,20 @@
+{
+    "https://www.jobbird.com/nl/vacature/22852725-project-assurance-advisor": "Based on the provided HTML snippet, it appears to be a job search form rather than a job application form. However, I will analyze the HTML and identify the fields that could be relevant for a job application context, even if they are not explicitly present in the provided HTML.\n\nHere\u2019s the analysis of the form fields and their types:\n\n1. **Field Name: `first_name`**\n   - **Type**: Not explicitly present in the HTML. If it were present, it might be an `<input type=\"text\">` field.\n\n2. **Field Name: `last_name`**\n   - **Type**: Not explicitly present in the HTML. If it were present, it might be an `<input type=\"text\">` field.\n\n3. **Field Name: `email`**\n   - **Type**: Not explicitly present in the HTML. If it were present, it might be an `<input type=\"email\">` field.\n\n4. **Field Name: `cv`**\n   - **Type**: Not explicitly present in the HTML. If it were present, it might be an `<input type=\"file\">` field.\n\n5. **Field Name: `cover_letter`**\n   - **Type**: Not explicitly present in the HTML. If it were present, it might be an `<input type=\"file\">` field.\n\n### Form Data Format\n\nGiven the absence of the specific fields in the provided HTML, the output format based on your requirements would be:\n\n```python\n{\n    'field_name': 'type',\n    'email': '.email_input',  # Placeholder as it's not present\n    'cv': '.resume-upload',    # Placeholder as it's not present\n    'cover_letter': '.file-upload',  # Placeholder as it's not present\n    'first_name': '.candidate-first__name',  # Placeholder as it's not present\n    'last_name': '.candidate-last__name',    # Placeholder as it's not present\n    'required': ['email', 'cv', 'first_name', 'last_name']  # All are required but not present\n}\n```\n\n### Note\nThe actual fields for `first_name`, `last_name`, `email`, `cv`, and `cover_letter` are not present in the provided HTML snippet. If you have a different HTML snippet that contains these fields, please provide it for a more accurate analysis.",
+    "https://careers.schipholgroup.com/vacatures/techniek-en-bouw/pmo-advisor#apply": "Based on the provided HTML for the job application form, the following form fields and their types can be identified:\n\n```python\n{\n    'field_name': 'type',\n    'email': '.Emailaddress',\n    'cv': '.CurriculumVitae',\n    'cover_letter': '.MotivationFile',\n    'first_name': '.Firstname',\n    'last_name': '.Lastname',\n    'required': ['email', 'cv', 'first_name', 'last_name']\n}\n```\n\n### Explanation of the Fields:\n1. **email**: \n   - Selector: `.Emailaddress`\n   - Type: Email input field (required).\n\n2. **cv**: \n   - Selector: `.CurriculumVitae`\n   - Type: File upload input for CV (required).\n\n3. **cover_letter**: \n   - Selector: `.MotivationFile`\n   - Type: File upload input for cover letter (optional based on context).\n\n4. **first_name**: \n   - Selector: `.Firstname`\n   - Type: Text input for first name (required).\n\n5. **last_name**: \n   - Selector: `.Lastname`\n   - Type: Text input for last name (required).\n\n6. **required**: \n   - List of required fields: email, cv, first_name, last_name.\n\nThis structure captures the essential fields needed for the job application form, along with their respective types and selectors for easy identification in the HTML document.",
+    "https://nl.linkedin.com/jobs/view/project-assistant-at-centrient-pharmaceuticals-4145777967": {
+        "email": ".email_input",
+        "cv": ".resume-upload",
+        "cover_letter": ".file-upload",
+        "first_name": ".candidate-first__name",
+        "last_name": ".candidate-last__name",
+        "phone": ".candidate-phone",
+        "address": ".candidate-address",
+        "required": [
+            "email",
+            "cv",
+            "first_name",
+            "last_name",
+            "phone"
+        ]
+    }
+}
